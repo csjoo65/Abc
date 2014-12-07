@@ -1,13 +1,15 @@
-function setup(){
-
-
- 	createCanvas(800, 800);
 
 
  	var img;
  	var B2_2
  	var R_2
  	var S_2
+
+
+function setup(){
+
+
+ 	createCanvas(800, 800);
 
    img = loadImage("B1_2.png");
 	B2_2 = loadImage("B2_2.png");
