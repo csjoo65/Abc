@@ -25,7 +25,7 @@ background(img);
 if(mouseX<200){
 image(S_2,0,3,800,800);;
 }
-else if (mouseX>700){
+else if (mouseX>500){
 image(R_2,0,3,800,800);
 }
 else{
