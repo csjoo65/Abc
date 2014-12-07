@@ -19,6 +19,7 @@ function setup(){
 
 function draw(){
 background(img);
+image(B2_2);
 if(mouseX<300){
 image(S_2,100,100,800,800);
 }
