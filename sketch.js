@@ -26,6 +26,12 @@ background(img);
 if(mouseX<300){
 image(S_2,0,3,800,800);
 }
+
+else if (mouseX<300){
+	image(R_2,0,3,800,800);
+	ellipse(350,200,100,100);
+}
+
 else{
 ellipse(400,200,100,100);
 }
