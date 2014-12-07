@@ -22,10 +22,10 @@ function draw(){
 background(img);
 
 
-if(mouseX<30){
+if(mouseX<200){
 image(S_2,0,3,800,800);;
 }
-else if (mouseX>800){
+else if (mouseX>700){
 image(R_2,0,3,800,800);
 }
 else{
