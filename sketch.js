@@ -28,7 +28,7 @@ else if (mouseX>600){
 image(R_2,0,3,800,800);
 }
 else{
-ellipse(400,200,100,100);
+ellipse(400,200,10,10);
 }
 
 }
