@@ -22,7 +22,7 @@ function draw(){
 background(img);
 
 
-if(mouseX<200){
+if(mouseX<100){
 image(S_2,0,3,800,800);;
 }
 else if (mouseX>100){
@@ -31,5 +31,6 @@ image(R_2,0,3,800,800);
 else{
 ellipse(400,200,0,0);
 }
-image(B2_2);
+
+{image(B2_2);}
 }
