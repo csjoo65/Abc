@@ -20,17 +20,17 @@ function setup(){
 
 function draw(){
 background(img);
+image(B2_2);
 
-
-if(mouseX<100){
+if(mouseX<20){
 image(S_2,0,3,800,800);;
 }
-else if (mouseX>100){
+else if (mouseX>10){
 image(R_2,0,3,800,800);
 }
 else{
 ellipse(400,200,0,0);
 }
 
-{image(B2_2);}
+
 }
