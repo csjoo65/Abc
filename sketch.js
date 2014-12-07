@@ -28,12 +28,11 @@ else{
 ellipse(400,200,100,100);
 }
 
-if(mouseX<200);
+if(mouseX<200);{
 image(R_2,0,3,800,800);
 }
 else{
 	ellipse(300,100,200,200);
 }
 background(B2_2);
-
 }
