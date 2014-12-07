@@ -29,11 +29,3 @@ else{
 ellipse(400,200,100,100);
 }
 }
-
-else if(mouseX<200){
-image(R_2,0,3,800,800);
-}
-else{
-ellipse(400,200,100,100);
-}
-}
