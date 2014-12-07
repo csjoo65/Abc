@@ -12,7 +12,7 @@ function draw(){
 
 // draw function
 if (mouseX < 300) {
-image(S_2,0,0,500,500);
+image(S_2,0,0);
 } 
 else {
   ellipse(400, 200, 100, 100);
