@@ -20,10 +20,10 @@ function setup(){
 
 function draw(){
 background(img);
-if(mousex<300){
+if(mouseX<300){
 image(S_2,0,3,800,800);;
 }
-else if (mousex>700){
+else if (mouseX>700){
 image(R_2,0,3,800,800);
 }
 else{
