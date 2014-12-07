@@ -21,7 +21,7 @@ function draw(){
 background(img);
 background(B2_2);
 if(mouseX<300){
-image(S_2,10,10,800,800);
+image(S_2,10,15,800,800);
 }
 else{
 ellipse(400,200,100,100);
