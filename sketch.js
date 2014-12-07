@@ -20,7 +20,7 @@ function setup(){
 
 function draw(){
 background(img);
-background(B2_2);
+
 if(mouseX<300){
 image(S_2,0,3,800,800);;
 }
@@ -30,5 +30,5 @@ image(R_2,0,3,800,800);
 else{
 ellipse(400,200,100,100);
 }
-image(B2_2);
+background(B2_2);
 }
