@@ -1,5 +1,6 @@
 function setup(){
 
+
  	createCanvas(800, 800);
 
 
@@ -15,12 +16,11 @@ function setup(){
 }
 
 function draw(){
-   image(img,0,0);}
-
-// draw function
-if (mouseX < 300) {
-image(S_2,100,100,800,,800);
-} 
-else {
-  ellipse(400, 200, 100, 100);
+background(img);
+if(mouseX<300){
+image(S_2,100,100,800,800);
+}
+else{
+ellipse(400,200,100,100);
+}
 }
